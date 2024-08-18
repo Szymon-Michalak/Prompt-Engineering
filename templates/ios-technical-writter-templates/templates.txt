@@ -1,0 +1,1104 @@
+# Interview_question (from interview_question.md)
+---
+Slug: `[slug]`
+Title: `[title]`
+Authors: `[authors]`
+Tags: `[tags]`
+---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** `[Main Source Title]([Main Source URL])`
+
+  **Additional Sources:**
+    - `[Additional Source Title]([Additional Source URL])`
+  
+  **Further Reading:**
+    - `[Further Reading Title]([Further Reading URL])`
+</details>
+
+## Summary
+:::info[TL/DR]
+[Brief summary of the main point.]
+:::
+
+## Explanation
+[Detailed explanation of the concept, including any relevant code snippets or examples.]
+
+```swift
+// Example Swift code that demonstrates the concept
+```
+
+## Additional Details
+[Additional examples, edge cases, or related concepts that deepen understanding.]
+
+```swift
+// Additional example code
+```
+
+:::tip[In Bullets]
+- **[Key Point 1]:** [Brief explanation].
+- **[Key Point 2]:** [Brief explanation].
+- **[Key Point 3]:** [Brief explanation].
+:::
+
+---
+
+### Usage Notes:
+- **Metadata:** Use the "slug," "title," "authors," and "tags" fields to categorize and manage content effectively.
+- **Sources & Resources:** Provide a main source and additional resources for further reading.
+- **Summary:** Include a brief "TL/DR" section for a quick takeaway.
+- **Explanation:** Offer a thorough explanation with code examples.
+- **Additional Details:** Add any edge cases or related concepts for a comprehensive understanding.
+- **Key Points:** Summarize the critical takeaways in a bullet-point format.
+
+# Book (from book.md)
+```markdown
+---
+title: "📗📘📕 [Book Title]"
+description: [A brief description of the book's focus, including key areas covered.]
+
+sidebar_label: "📗📘📕 [Short Sidebar Label]"
+---
+
+[A brief introduction reiterating the description and adding any additional context.]
+
+<details>
+
+**URL:** [Insert the URL where the book can be accessed or purchased]
+
+**Published:** [YYYY-MM-DD]
+
+**ISBN:** [ISBN Number]
+
+**Length/Pages:** [Number of Pages or Duration for Audiobooks]
+
+**Authors:** `[Author Name]`
+
+**Tags:**  
+`[Tag 1]`, `[Tag 2]`, `[Tag 3]`, `[Tag 4]`, `[Tag 5]`
+
+</details>
+
+### Key Points
+- [Summarize key features and topics covered in the book.]
+- [Another key feature or topic.]
+- [Another key feature or topic.]
+- [Another key feature or topic.]
+- [Final key feature or topic.]
+
+### Summary of Contents
+- **Introduction:** 
+  - Overview of the book's purpose and structure.
+  - Importance of the topics covered.
+  
+- **Chapter 1: [Chapter Title]**
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **Wrap up:** Summary and project review.
+
+- **Chapter 2: [Chapter Title]**
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **Wrap up:** Summary and project review.
+
+- **Chapter 3: [Chapter Title]**
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **Wrap up:** Summary and project review.
+
+- **Chapter 4: [Chapter Title]**
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **[Sub-section Title]:** [Brief description of what this sub-section covers.]
+  - **Wrap up:** Summary and project review.
+
+- **[Additional Chapters as needed]**
+
+- **Conclusion:**
+  - Recap of the key features and techniques covered in the book.
+  - Final thoughts on the importance of mastering these advanced topics.
+
+<LinkCard title="Link to Book" href="[Insert URL here]" />
+```
+
+---
+
+## **Usage Notes:**
+
+1. **Title and Description:**
+   - **Title:** Use the appropriate book icon: 📗 for beginner content, 📘 for intermediate content, and 📕 for advanced content. The title should be concise and informative.
+   - **Description:** Provide a brief yet comprehensive description of the book, highlighting its focus and key areas covered.
+
+2. **Details Section:**
+   - **URL:** Include the direct link where the book can be accessed or purchased.
+   - **Published Date:** Use the ISO 8601 date format (YYYY-MM-DD) for consistency.
+   - **ISBN:** Include the book's ISBN number for accurate identification.
+   - **Length/Pages:** Mention the total number of pages for physical or digital copies, or the duration for audiobooks.
+   - **Authors:** List the author's name(s) using backticks (`) for consistency.
+   - **Tags:** Add relevant tags to help categorize the book and improve discoverability.
+
+3. **Key Points:**
+   - Summarize the most important features or topics covered in the book using bullet points. These should give a quick overview of why the book is valuable.
+
+4. **Summary of Contents:**
+   - **Introduction:** Start with an overview of the book's purpose and structure, explaining why the topics covered are important.
+   - **Chapters:** Break down the book chapter by chapter, with brief descriptions of what each section covers. Use sub-sections to detail specific topics within each chapter.
+   - **Wrap-up:** For each chapter, include a summary or project review if applicable, to encapsulate what the reader has learned.
+   - **Additional Chapters:** Repeat the chapter structure as needed for the book’s content.
+   - **Conclusion:** End with a summary of the book’s key takeaways and any final thoughts on the significance of the topics discussed.
+
+5. **LinkCard:**
+   - Provide a direct link to the book at the end of the document using a LinkCard. Ensure the URL points to a reliable source where the book can be accessed or purchased.
+
+6. **Customization and Flexibility:**
+   - **Sections:** Adjust the number of chapters and sub-sections based on the book’s structure. Some books may not need all the suggested sections, while others might require additional details.
+   - **Formatting:** Use formatting to emphasize important sections or to make the content more readable. For example, you can bold key phrases or use different text sizes.
+
+---
+
+This version of the book template now maintains a consistent tone and structure with the blog post template, ensuring a cohesive experience across your documentation.
+
+# Solutions (from solutions.md)
+```markdown
+---
+title: "Solutions to [Problem Name]"
+description: [A brief description of the solution and the approach used.]
+
+difficulty: [Easy, Medium, Hard]
+
+tags: `[Tag1]`, `[Tag2]`, `[Tag3]`
+
+---
+
+## Objective
+[Clearly define what needs to be achieved to consider the problem solved. This section provides a clear focus for the solutions.]
+
+- **Objective 1:** [First goal or milestone]
+- **Objective 2:** [Next goal]
+- **Objective 3:** [Final goal]
+
+---
+
+## Solution 1: [Naive or Basic Solution Name]
+[Provide an overview of the most straightforward or naive solution.]
+
+### Pseudo Code
+[Provide the pseudo code for the solution, outlining the main steps in a language-agnostic format.]
+
+```
+# Pseudo code example
+1. Initialize necessary variables
+2. Iterate over the input
+3. Apply the logic to solve the problem
+4. Return the result
+```
+
+### Complexity Analysis
+[Analyze the time and space complexity of this solution. Discuss its efficiency and where it might fall short.]
+
+- **Time Complexity:** [e.g., O(n), O(log n), etc.]
+- **Space Complexity:** [e.g., O(1), O(n), etc.]
+- **Pros:** [List the advantages of this approach]
+- **Cons:** [List the disadvantages or limitations]
+
+### Swift Implementation
+[Provide the Swift code implementation of the solution.]
+
+```swift
+// Swift code example
+func naiveSolution(input: [Int]) -> [Int] {
+    // Implementation here
+}
+```
+
+---
+
+## Solution 2: [Intermediate Solution Name]
+[Provide an overview of the next, more optimized solution.]
+
+### Pseudo Code
+[Provide the pseudo code for the solution, highlighting improvements over the first solution.]
+
+```
+# Pseudo code example
+1. Optimize variable usage
+2. Implement a more efficient algorithm
+3. Iterate with reduced complexity
+4. Return the optimized result
+```
+
+### Complexity Analysis
+[Analyze the time and space complexity of this solution. Compare its efficiency to the first solution.]
+
+- **Time Complexity:** [e.g., O(n), O(log n), etc.]
+- **Space Complexity:** [e.g., O(1), O(n), etc.]
+- **Pros:** [List the advantages of this approach]
+- **Cons:** [List any remaining limitations or trade-offs]
+
+### Swift Implementation
+[Provide the Swift code implementation of the improved solution.]
+
+```swift
+// Swift code example
+func optimizedSolution(input: [Int]) -> [Int] {
+    // Implementation here
+}
+```
+
+---
+
+## Solution 3: [Best or Advanced Solution Name]
+[Provide an overview of the most optimized or advanced solution.]
+
+### Pseudo Code
+[Provide the pseudo code for the final solution, which should be the most efficient.]
+
+```
+# Pseudo code example
+1. Use advanced data structures or algorithms
+2. Implement the most optimized logic
+3. Minimize iterations and operations
+4. Return the best possible result
+```
+
+### Complexity Analysis
+[Analyze the time and space complexity of this final solution. Discuss why it is the best among all solutions.]
+
+- **Time Complexity:** [e.g., O(n), O(log n), etc.]
+- **Space Complexity:** [e.g., O(1), O(n), etc.]
+- **Pros:** [List the advantages of this approach]
+- **Cons:** [List any minimal trade-offs, if applicable]
+
+### Swift Implementation
+[Provide the Swift code implementation of the most optimized solution.]
+
+```swift
+// Swift code example
+func advancedSolution(input: [Int]) -> [Int] {
+    // Implementation here
+}
+```
+
+---
+
+## Conclusion
+[Summarize the progression from the naive to the most advanced solution. Discuss the trade-offs and why the final solution is preferable.]
+
+```
+
+### **Usage Notes:**
+
+1. **Multiple Solutions Structure:**
+   - **Flow:** The document should progress from the simplest to the most advanced solution, making it easier for the reader to understand the problem-solving process and why certain solutions are better than others.
+   - **Comparison:** By presenting multiple solutions, the template helps users see the evolution of the thought process and the importance of optimizing for performance and efficiency.
+
+2. **Pseudo Code:**
+   - **Clarity:** Pseudo code should be clear and straightforward, providing a high-level understanding of the solution’s logic without getting bogged down in syntax. This step is crucial for conveying the core idea before delving into actual code.
+
+3. **Complexity Analysis:**
+   - **Critical Analysis:** Each solution should be critically analyzed in terms of its time and space complexity, helping the reader understand its efficiency and limitations.
+   - **Pros and Cons:** Highlighting the strengths and weaknesses of each solution guides the reader in understanding why one approach may be favored over another.
+
+4. **Swift Implementation:**
+   - **Best Practices:** The Swift code should follow best practices, with clear variable names, comments explaining key sections, and an emphasis on readability and maintainability.
+   - **Alignment with Pseudo Code:** Ensure that the Swift implementation closely follows the pseudo code, allowing the reader to see how the high-level logic translates into actual code.
+
+5. **Conclusion Section:**
+   - **Summarize Progression:** The conclusion should tie everything together, summarizing why the final solution is the best choice. It should also reflect on the problem-solving journey, highlighting the importance of optimization.
+
+---
+
+# Blog_post (from blog_post.md)
+```markdown
+### 🟢🔵🔴 [Title]
+
+[Provide a 3-4 sentence description of the article, summarizing its main focus, purpose, and why it’s valuable to the reader.]
+
+<details>
+
+**URL:** [Link to the original blog post]
+
+**Published:** [YYYY-MM-DD]
+
+**Authors:** `[Author's name]`
+
+**Tags:**  
+`[Relevant tags such as unit-testing, software-development, etc.]`
+
+</details>
+
+#### Key Points
+- [Brief point summarizing a key insight or importance of the topic discussed.]
+- [Another key characteristic, principle, or methodology emphasized in the post.]
+- [Additional strategy or actionable advice provided.]
+- [Optional: Add more points as necessary, or remove if fewer are needed.]
+
+#### Summary of Contents
+- **[Heading 1]:** [Brief summary of this section.]
+- **[Heading 2]:** [Brief summary of this section.]
+- **[Optional: Add or remove headings as necessary]:** [Brief summary of this section.]
+
+#### Additional Resources
+- **[Resource 1]:** [Brief description.]
+- **[Resource 2]:** [Brief description.]
+- **[Optional: Add or remove resources as necessary]:** [Brief summary of this section.]
+
+<LinkCard title="Read Full Article" href="[URL to the blog post]" />
+```
+
+---
+
+## **Usage Notes:**
+
+1. **Title and Description:**
+   - **Title:** Use the difficulty level indicator: 🟢 for beginner, 🔵 for intermediate, and 🔴 for advanced-level articles. The title should be descriptive and engaging.
+   - **Description:** Provide a concise summary of the article's main focus and its value to the reader. Aim for 3-4 sentences.
+
+2. **Details Section:**
+   - **URL:** Include the direct link to the blog post.
+   - **Published Date:** Use the ISO 8601 date format (YYYY-MM-DD) for consistency.
+   - **Authors:** List the author's name(s) using backticks (`) for consistency.
+   - **Tags:** Add relevant tags to help categorize the content and improve discoverability.
+
+3. **Key Points:**
+   - Summarize the most critical insights, principles, or strategies discussed in the blog post. Use bullet points for clarity.
+   - Include as many points as needed to cover the main takeaways.
+
+4. **Summary of Contents:**
+   - Break down the article into its main sections or headings, providing brief summaries of each.
+   - Use this section to guide the reader through the structure of the blog post.
+
+5. **Additional Resources:**
+   - List any additional resources mentioned in the blog post, such as related articles, tools, or documentation.
+   - Provide a brief description of each resource, and add or remove items as needed.
+
+6. **LinkCard:**
+   - Provide a direct link to the full blog post using a LinkCard at the end of the template. Ensure the URL points to the correct article.
+
+7. **Customization and Flexibility:**
+   - **Sections:** Adjust the headings and summaries based on the actual structure of the blog post. Remove or add sections as needed.
+   - **Formatting:** Use bold, italics, or other formatting options to emphasize key points or make the content more readable.
+
+---
+
+# Problem (from problem.md)
+```markdown
+---
+title: "[Problem Name]"
+description: [A brief description of the problem, including its relevance and importance.]
+
+difficulty: [Easy, Medium, Hard]
+
+tags: `[Tag1]`, `[Tag2]`, `[Tag3]`
+
+---
+
+### Problem Statement
+[Provide a detailed description of the problem. Include the context, the specific challenge to be solved, and any important definitions or explanations that are necessary to understand the problem.]
+
+### Constraints
+[List the constraints that apply to the problem, such as input size, range of values, time complexity limits, etc.]
+
+- **Constraint 1:** [Description]
+- **Constraint 2:** [Description]
+- **Constraint 3:** [Description]
+
+### Input Format
+[Describe the expected input format, including any specific types or structures. This section can also include edge cases that should be considered.]
+
+- **Input 1:** [Description]
+- **Input 2:** [Description]
+- **Input 3:** [Description]
+
+### Output Format
+[Describe the expected output format, clearly stating what the solution should return.]
+
+- **Output 1:** [Description]
+- **Output 2:** [Description]
+
+### Example Cases
+[Provide one or more examples of inputs and their corresponding outputs. Include an explanation of how the output is derived from the input.]
+
+- **Example 1:**
+  - **Input:** `[Input Example]`
+  - **Output:** `[Output Example]`
+  - **Explanation:** [Step-by-step explanation]
+
+- **Example 2:**
+  - **Input:** `[Input Example]`
+  - **Output:** `[Output Example]`
+  - **Explanation:** [Step-by-step explanation]
+
+### Additional Notes
+[Include any additional information that might help in understanding the problem, such as potential pitfalls, hints, or common misconceptions. This section can also guide how to approach the problem.]
+
+```
+
+### **Usage Notes:**
+
+1. **Title and Metadata:**
+   - **Title:** Ensure the problem title is descriptive and gives an immediate sense of what the problem involves.
+   - **Difficulty:** Select a difficulty level that accurately reflects the challenge posed by the problem. This helps in categorizing the problem and guiding users on the expected effort required.
+   - **Tags:** Use relevant tags to help users find similar problems or topics. Tags can include related algorithms, data structures, or specific topics like "Dynamic Programming" or "Sorting".
+
+2. **Problem Statement:**
+   - **Clarity:** The problem statement should be clear and concise, providing all necessary information without overwhelming the reader. Avoid unnecessary jargon and focus on the core challenge.
+   - **Context:** Providing context can help users understand why solving this problem is important or useful, particularly in real-world applications or common interview scenarios.
+
+3. **Constraints:**
+   - **Specificity:** Clearly define the constraints, including limits on input size, value ranges, and any performance expectations (like time complexity). This ensures that the problem is well-scoped and solvable within the given constraints.
+   - **Relevance:** Make sure the constraints are relevant to the problem and aligned with typical scenarios users might encounter, especially in technical interviews.
+
+4. **Input and Output Format:**
+   - **Precision:** Describe the expected input and output formats with precision, using examples if necessary to illustrate. This prevents misunderstandings about how the solution should handle various inputs.
+   - **Edge Cases:** While detailed edge cases are reserved for the solution, consider mentioning any input or output that might seem ambiguous or unusual.
+
+5. **Example Cases:**
+   - **Illustrative:** Choose example cases that illustrate the problem well, including both straightforward and slightly complex scenarios. Each example should help clarify the problem and show how the solution is expected to behave.
+   - **Explanations:** Provide step-by-step explanations for each example to ensure users understand how the output is derived. This is especially useful for more complex problems.
+
+6. **Additional Notes:**
+   - **Hints and Tips:** Offer subtle hints or tips that can guide the problem-solving process without giving away the solution. This might include common pitfalls, things to watch out for, or advice on how to approach the problem.
+   - **Common Misconceptions:** Address any potential misconceptions about the problem to prevent users from heading down incorrect paths.
+
+---
+
+# Tool (from tool.md)
+```markdown
+### [Tool Name]
+[Provide a concise summary of the tool, including its primary function, the problems it solves, and why it is useful.]
+
+<details>
+
+**URL:** [Full URL to the tool’s website or download page]
+
+**Platform:** [The platforms on which the tool is available, e.g., iOS, macOS, Web]
+
+**Created:** [YYYY-MM-DD]
+
+**Authors/Developers:** `[Author or Developer Names]`
+
+**Tags:**  
+`[Relevant tags such as programming languages, frameworks, or key concepts]`
+
+</details>
+
+#### Key Features
+- [Highlight the tool's most significant features.]
+- [Another important feature or capability.]
+- [Additional feature that makes the tool valuable.]
+
+#### Installation and Setup
+[Provide instructions for installing and setting up the tool. Include any dependencies, installation steps, and basic usage instructions.]
+
+- **Dependencies:** [List any key dependencies required for the tool.]
+- **Installation:** [Step-by-step guide for installing the tool.]
+- **Usage:** [Basic commands or instructions for using the tool.]
+
+#### Use Cases
+[Describe specific scenarios or use cases where this tool is particularly effective. Include examples if possible.]
+
+- **Use Case 1:** [Description of the scenario and how the tool is used.]
+- **Use Case 2:** [Another scenario where the tool is beneficial.]
+- **Optional: Add or remove use cases as necessary.]
+
+#### Pros and Cons
+[List the advantages and disadvantages of using the tool.]
+
+- **Pros:**
+  - [Pro 1]
+  - [Pro 2]
+- **Cons:**
+  - [Con 1]
+  - [Con 2]
+
+#### Alternatives
+[Provide a list of alternative tools that offer similar functionality. Briefly compare these alternatives to the tool being documented.]
+
+- **Alternative 1:** [Brief comparison to the tool.]
+- **Alternative 2:** [Brief comparison to the tool.]
+- **Optional: Add or remove alternatives as necessary.]
+
+#### Integration Capabilities
+[Discuss the tool's ability to integrate with other software, platforms, or services. Mention any plugins, APIs, or built-in integrations that extend the tool’s functionality.]
+
+- **Integration 1:** [Description of the integration and its benefits.]
+- **Integration 2:** [Description of another integration.]
+
+#### User Feedback and Reviews
+[Include a section that summarizes user feedback, ratings, and reviews. Mention any common praises or criticisms found in user reviews.]
+
+- **Positive Feedback:** [Summarize positive feedback and highlight common themes.]
+- **Negative Feedback:** [Summarize any criticisms or areas where users have reported issues.]
+
+#### Roadmap and Updates
+[If applicable, include information on the tool's development roadmap, future updates, or long-term support plans.]
+
+- **Upcoming Features:** [List any features or updates planned for the future.]
+- **Support and Maintenance:** [Describe the level of ongoing support and how updates are handled.]
+
+<LinkCard title="Visit [Tool Name]" href="[Full URL to the tool’s website or download page]" />
+```
+
+---
+
+### **Usage Notes:**
+
+1. **Integration Capabilities:**
+   - **Purpose:** This new section helps users understand how the tool can be extended or connected with other systems they may already be using. This is particularly useful for teams looking to streamline workflows.
+   - **Details:** Mention specific APIs, plugins, or built-in integrations, and how they enhance the tool’s utility.
+
+2. **User Feedback and Reviews:**
+   - **Purpose:** Summarizing user feedback provides prospective users with insights into real-world usage of the tool. This can include both positive aspects and common criticisms.
+   - **Details:** Use aggregated user reviews from platforms like GitHub, Product Hunt, or other relevant sites. Highlight recurring themes or issues.
+
+3. **Roadmap and Updates:**
+   - **Purpose:** Including a roadmap gives users a sense of the tool's longevity and ongoing development, which is important for assessing whether the tool will meet long-term needs.
+   - **Details:** Mention any publicly available roadmaps, upcoming features, and the frequency of updates. Also, include information on how well the tool is supported.
+
+4. **Existing Sections:**
+   - The existing sections (Key Features, Installation and Setup, Use Cases, Pros and Cons, Alternatives) have been maintained but can be enriched with more detailed information, examples, or contextual use cases that reflect the expanded scope of the enhanced template.
+
+---
+
+# Video (from video.md)
+```markdown
+### [Video/Playlist Title]
+[Provide a concise summary of the video or playlist, mentioning the main topic, purpose, and why it is useful.]
+
+<details>
+
+**URL:** [Full URL of the Video or Playlist]
+
+**Published:** [YYYY-MM-DD]
+
+**Duration:** [Duration of the Video or Playlist, e.g., "15 minutes"]
+
+**Creators:** `[Creator Names]`
+
+**Tags:**  
+`[Relevant tags such as topics covered, technologies, or key concepts.]`
+
+</details>
+
+#### Key Points
+- [Highlight the video's most significant points or takeaways.]
+- [Another key point or insight from the video.]
+- [Additional strategy or concept covered.]
+
+#### Summary of Contents
+- **Introduction:** [Overview of the topic and its significance.]
+- **Main Sections:** [Key arguments, steps, or content covered in the video.]
+- **Conclusion:** [Final thoughts, recommendations, or summaries.]
+
+#### Additional Resources
+- **[Resource 1]:** [Brief description.]
+- **[Resource 2]:** [Brief description.]
+- **Optional: Add or remove resources as necessary.]
+
+<LinkCard title="Watch Full Video/Playlist" href="[Full URL of the Video or Playlist]" />
+```
+
+---
+
+### **Usage Notes for video.md:**
+
+1. **Title and Description:**
+   - **Title:** Clearly state the title of the video or playlist.
+   - **Description:** Provide a brief summary that outlines the main topic, purpose, and why the content is valuable. This should be a few sentences that entice the reader to explore further.
+
+2. **Details Section:**
+   - **URL:** Insert the direct link to the video or playlist.
+   - **Published Date:** Use the ISO 8601 format (YYYY-MM-DD) for the publication date.
+   - **Duration:** Mention the length of the video or playlist. This helps users understand the time commitment involved.
+   - **Creators:** List the creators using backticks (`) for consistency.
+   - **Tags:** Add relevant tags that categorize the content, such as topics covered (e.g., "SwiftUI", "Networking"), technologies used (e.g., "iOS", "Xcode"), or concepts (e.g., "Best Practices").
+
+3. **Key Points:**
+   - **Purpose:** Highlight the most significant takeaways or insights from the video or playlist. These should be the main ideas or concepts that viewers will learn or benefit from.
+   - **Structure:** Use bullet points to make these key points easy to scan and digest. Each point should be concise but informative.
+
+4. **Summary of Contents:**
+   - **Introduction:** Start with an overview of the video's or playlist's topic, explaining its importance and relevance. This should be a brief paragraph.
+   - **Main Sections:** Break down the video into its main sections or segments. Each section should have a brief description that summarizes the content covered. This is particularly useful for longer videos or playlists with multiple segments.
+   - **Conclusion:** Conclude with a summary of the key takeaways and any final recommendations or thoughts. This helps reinforce the most important points covered in the video.
+
+5. **Additional Resources:**
+   - **Related Links:** List any additional resources mentioned in the video or playlist, such as related articles, tools, or documentation. Provide a brief description for each resource.
+   - **Flexibility:** Adjust the number of resources listed based on what’s relevant. This section can be expanded or condensed depending on the content.
+
+6. **LinkCard:**
+   - **Purpose:** Provide a direct link to the video or playlist at the end of the document using a LinkCard. This ensures that users can easily access the full content after reading the summary.
+   - **Customization:** Replace the placeholder text with the title of the video or playlist, and ensure the URL is correct.
+
+---
+
+# Repository (from repository.md)
+```markdown
+### [Repository Name]
+[Provide a concise summary of the repository, highlighting its focus as a curated list of resources, tools, or links related to a specific topic.]
+
+<details>
+
+**URL:** [Full URL of the Repository]
+
+**Created:** [YYYY-MM-DD]
+
+**Last Updated:** [YYYY-MM-DD]
+
+**Authors/Curators:** `[Author or Curator Names]`
+
+**Tags:**  
+`[Relevant tags such as topics covered, industries, or key technologies.]`
+
+</details>
+
+#### Overview
+[Provide a brief overview of the repository's purpose. Explain what kinds of resources are included, how they are organized, and why this curated list is valuable to the audience.]
+
+#### Categories
+[List the main categories or sections of the repository. Each category should have a brief description and examples of what types of resources it includes.]
+
+- **Category 1:** [Brief description of this category and examples of resources included.]
+- **Category 2:** [Brief description of this category and examples of resources included.]
+- **Category 3:** [Brief description of this category and examples of resources included.]
+- **Optional: Add or remove categories/series as necessary.]
+
+#### Contribution Guidelines
+[Explain how users can contribute to the repository, such as by submitting new resources, correcting information, or suggesting new categories.]
+
+- **Submission Process:** [Steps to submit a new resource or suggest an improvement.]
+- **Guidelines:** [Any specific guidelines for contributions, such as formatting requirements or criteria for inclusion.]
+
+<LinkCard title="Visit [Repository Name]" href="[Full URL of the Repository]" />
+```
+
+### **Usage Notes:**
+
+1. **Title and Description:**
+   - **Title:** Clearly state the name of the repository.
+   - **Description:** Provide a concise summary that highlights the repository’s purpose as a curated list of resources, tools, or links. This should give users a quick understanding of the repository’s focus.
+
+2. **Details Section:**
+   - **URL:** Insert the full URL where the repository can be accessed (e.g., GitHub link).
+   - **Created Date:** Use the ISO 8601 format (YYYY-MM-DD) for the date when the repository was created.
+   - **Last Updated Date:** Include the most recent date when the repository was updated, also using the ISO 8601 format.
+   - **Authors/Curators:** List the curators or contributors who maintain the list, using backticks (`).
+   - **Tags:** Add relevant tags to categorize the content, such as topics covered, industries, or key technologies.
+
+3. **Overview:**
+   - **Purpose:** Provide an overview of the repository, focusing on the types of resources included and how they are organized. Explain why this curated list is valuable to the target audience.
+
+4. **Categories:**
+   - **Categorization:** Break down the repository into its main categories or sections. Each category should have a brief description and examples of what types of resources are included.
+   - **Flexibility:** Adjust the number of categories based on the range of content the repository offers.
+
+5. **Contribution Guidelines:**
+   - **Community Involvement:** Explain how users can contribute to the repository, such as by submitting new resources, correcting information, or suggesting new categories.
+   - **Submission Process:** Provide clear steps for submitting contributions, along with any guidelines that contributors should follow.
+
+6. **LinkCard:**
+   - **Purpose:** Use the LinkCard at the end of the document to provide a direct link to the repository. This makes it easy for users to visit the repository directly from the documentation.
+   - **Customization:** Replace the placeholder text with the repository’s name and ensure the URL is correct.
+
+---
+
+# Component (from component.md)
+```markdown
+---
+title: "[Component Name]"
+description: [A brief description of the UI component, including its primary functionality and why it is useful.]
+
+---
+
+import GifExample1 from './[ComponentName-Example1].gif';
+import GifExample2 from './[ComponentName-Example2].gif';
+import GifExample3 from './[ComponentName-Example3].gif';
+
+<img src={GifExample1} alt="Example 1" style={{width: 250}} />
+<img src={GifExample2} alt="Example 2" style={{width: 250}} />
+<img src={GifExample3} alt="Example 3" style={{width: 250}} />
+
+<LinkCard title="See on Github" href="[Full URL of the GitHub Repository or Documentation]" />
+
+<details>
+**Source:** [Full URL of the Source Repository or Documentation]
+
+**Created:** [Date of Creation]  
+**Last Updated:** [Date of Last Update]
+
+**Authors:** `[Author Names]`
+
+**Tags:**  
+[Relevant tags, such as related technologies, platforms supported, or UI patterns.]
+</details>
+
+## Overview
+[Provide an overview of the UI component, including its purpose, intended use cases, and any notable features. Describe where it might be used in an app and its significance.]
+
+## Key Features
+[Highlight the most significant features of the UI component. Focus on what makes this component valuable or unique.]
+
+- **Feature 1:** Brief description.
+- **Feature 2:** Brief description.
+- **Feature 3:** Brief description.
+
+## Integration
+[Provide instructions on how to integrate the UI component into an iOS/Swift project. Include installation steps, configuration options, and example usage.]
+
+- **Installation:** Step-by-step guide for adding the component to a project (e.g., via CocoaPods, Swift Package Manager).
+- **Configuration:** Instructions for configuring the component after installation.
+- **Usage Example:** Include code snippets showing how to implement the component in a project.
+
+```swift
+// Example Swift code for using the UI component
+```
+
+## Customization
+[Detail the options available for customizing the UI component, such as theming, layout, and behavior. Include code examples where applicable.]
+
+- **Customization Option 1:** Description and example.
+- **Customization Option 2:** Description and example.
+
+## Use Cases
+[Provide specific examples of how the component can be used in different scenarios or projects.]
+
+- **Use Case 1:** Description of a typical use case.
+- **Use Case 2:** Description of another use case.
+- **Use Case 3:** Description of an advanced or less common use case.
+
+## Notes
+[Provide additional notes, observations, or considerations about the UI component. This can include performance tips, compatibility notes, or best practices.]
+
+- **Note 1:** Brief note.
+- **Note 2:** Brief note.
+
+## Documentation and Resources
+[Provide links to additional resources such as official documentation, tutorials, or related resources.]
+
+- **Official Documentation:** [Link to Documentation]
+- **Tutorials:** [Link to Tutorials or Guides]
+- **Community Support:** [Link to Forums, Stack Overflow, etc.]
+
+<LinkCard title="Visit [UI Component Name]" href="[Full URL of the GitHub Repository or Documentation]" />
+```
+
+---
+
+### **Usage Notes:**
+
+1. **Visual Representation:**
+   - **GIFs and Images:** Use inline visuals like GIFs or images to demonstrate the UI component’s functionality. This helps users quickly grasp how the component looks and behaves.
+
+2. **Overview:**
+   - **Purpose and Context:** Clearly explain what the component does and where it might be used in an app, highlighting its significance.
+
+3. **Key Features:**
+   - **Highlight Unique Aspects:** Focus on the key features that make this component valuable or unique in the development process.
+
+4. **Integration:**
+   - **Installation and Configuration:** Provide a concise guide for integrating the component into a project, including any necessary setup or configuration.
+
+5. **Customization:**
+   - **Adaptability:** Detail how the component can be customized to fit different project needs, such as altering its appearance or behavior.
+
+6. **Use Cases:**
+   - **Real-world Applications:** Provide examples that demonstrate how the component can be applied in real-world scenarios, helping developers understand its potential uses.
+
+7. **Notes:**
+   - **Additional Considerations:** Include any extra details that might not fit neatly into other sections but are important for understanding the component’s capabilities or limitations.
+
+8. **Documentation and Resources:**
+   - **Further Learning:** Link to additional resources, such as official documentation, tutorials, or community support, to help users deepen their understanding or troubleshoot issues.
+
+9. **LinkCard:**
+   - **Direct Access:** Provide a direct link to the component’s full documentation or GitHub repository for easy access to detailed information.
+
+---
+
+# Resource_overview (from resource_overview.md)
+```markdown
+# [Resource Name]
+<!-- Provide a concise summary of the resource. Mention its primary focus, target audience, and why it is valuable. -->
+
+<details>
+**URL:** [Full URL of the Resource]
+
+**Authors/Creators:** `[Author or Creator Names]`
+
+**Tags:**  
+<!-- List relevant tags, such as topics covered, industries, or key technologies. -->
+`tag1`, `tag2`, `tag3`, ...
+</details>
+
+## Overview
+<!-- Offer an in-depth explanation of what the resource provides. Discuss the type of content available, the frequency of updates, and the overall style or approach. Focus on the general themes or topics covered rather than specific posts. -->
+
+## Content Focus
+<!-- Describe the main themes, topics, or categories that the resource frequently explores. Mention the general style or tone of the content, such as technical, educational, or inspirational. -->
+- **Topic 1:** Brief description.
+- **Topic 2:** Brief description.
+- **Topic 3:** Brief description.
+
+## Target Audience
+<!-- Describe the intended audience for this resource. Mention any relevant experience levels, professions, or interests. -->
+
+## Content Style and Format
+<!-- Provide an overview of the format and style of the content, such as articles, videos, tutorials, or interactive content. Mention whether the resource is more text-based, visual, or a mix of both. -->
+
+## Additional Features
+<!-- Highlight any additional features or sections of the resource, such as forums, newsletters, or downloadable materials. -->
+- **Feature 1:** Brief description.
+- **Feature 2:** Brief description.
+
+<LinkCard title="Visit [Resource Name]" href="[Full URL of the Resource]" />
+```
+
+### Usage Notes:
+- **Overview:** Summarize the resource's overall content and approach without referencing specific entries.
+- **Content Focus:** Discuss the main themes and topics that are consistently covered.
+- **Content Style and Format:** Provide a high-level overview of the types of content and the general style, helping users understand the resource's approach.
+
+# Framework (from framework.md)
+### **Streamlined Framework Template (framework.md)**
+
+```markdown
+---
+title: "[Framework Name]"
+description: [A concise summary of the framework, including its primary functionality, use cases, and why it is valuable for developers.]
+
+platforms: [iOS, macOS, etc.]
+
+tags: `[Tag1]`, `[Tag2]`, `[Tag3]`
+
+---
+
+### Overview
+[Provide a brief overview of the framework, including its main functionalities, purpose, and significance in iOS or macOS development. This section should give readers a quick understanding of what the framework does and why it is useful.]
+
+<details>
+
+**URL:** [Full URL of the Framework’s Documentation or GitHub Repository]
+
+**Created:** [Date of Creation]  
+**Last Updated:** [Date of Last Update]
+
+**Authors:** `[Author Names]`
+
+**Tags:**  
+[Relevant tags such as technologies, platforms supported, or key features.]
+</details>
+
+### Key Features
+[Highlight the most significant features of the framework. This could include specific APIs, tools, or unique functionalities.]
+
+- **Feature 1:** [Brief description]
+- **Feature 2:** [Brief description]
+- **Feature 3:** [Brief description]
+
+### Use Cases
+[Provide specific examples of how the framework can be used in iOS/Swift projects. This helps users understand the practical applications of the framework.]
+
+- **Use Case 1:** [Description]
+- **Use Case 2:** [Description]
+- **Use Case 3:** [Description]
+
+### Conclusion
+[Summarize the framework’s strengths and provide a recommendation for when and why it should be used.]
+
+<LinkCard title="Explore [Framework Name]" href="[Full URL to the Framework’s Documentation or GitHub Repository]" />
+```
+
+---
+
+### **Usage Notes:**
+
+1. **Title and Metadata:**
+   - **Title:** Use the framework's official name.
+   - **Description:** Provide a brief summary of the framework's purpose and significance.
+   - **Platforms:** Indicate the platforms the framework supports (iOS, macOS, etc.).
+   - **Tags:** Include relevant tags that categorize the framework by functionality or purpose.
+
+2. **Overview:**
+   - **Purpose:** Give a high-level summary of what the framework does, focusing on its core functionalities and relevance in development.
+   - **Details Section:** This section provides key metadata about the framework, including links to the official documentation.
+
+3. **Key Features:**
+   - **Highlight:** Focus on a few key features that make the framework valuable or unique. This helps users quickly understand what the framework offers.
+
+4. **Use Cases:**
+   - **Practical Applications:** Provide specific scenarios where the framework is particularly useful. This section should help users envision how the framework could be applied in their own projects.
+
+5. **Conclusion:**
+   - **Summary:** Provide a brief conclusion that reinforces why the framework is useful, and when it might be the best choice for developers.
+
+6. **LinkCard:**
+   - **Direct Access:** The LinkCard provides a direct link to the framework’s full documentation or README, making it easy for users to access detailed information with one click.
+
+---
+
+# Snippet (from snippet.md)
+```markdown
+---
+title: "[Snippet Title]"
+description: "[A brief description of the snippet's purpose, key functionality, and why it is useful.]"
+---
+
+## Overview
+[Provide a brief overview of what the snippet does, its primary use case, and why it is valuable. This section sets the context for the snippet.]
+
+<details>
+
+**URL:** [Full URL to Full Implementation or Documentation]
+
+**Source:** [Relevant Source, e.g., Book or Blog Post Link]
+
+**Author:** `[Author Name]`
+
+**Tags:**  
+`[Tag1]`, `[Tag2]`, `[Tag3]`, `[Tag4]`
+
+**Platforms Supported:** [e.g., iOS, macOS]
+
+**Swift Version:** [Version Number]
+</details>
+
+## Code
+
+```swift
+// Provide the core code for the snippet here.
+```
+
+## Usage
+
+```swift
+// Show how the snippet can be implemented in a real-world scenario, including any necessary setup or context.
+```
+
+## Discussion
+[Include a discussion of the solution, why it was chosen, and any alternative approaches that were considered. Discuss edge cases, performance considerations, and potential limitations.]
+
+## Notes
+- **Flexibility:** [Briefly mention how flexible the snippet is, such as ease of customization or scalability.]
+- **Compatibility:** [Mention any relevant compatibility notes, like supported platforms or versions.]
+
+## Related Snippets
+- [Related Snippet 1](#)
+- [Related Snippet 2](#)
+
+<LinkCard title="View Full Snippet" href="[Full URL to the Detailed Implementation or Documentation]" />
+```
+
+---
+
+### **Usage Notes:**
+
+1. **Title and Metadata:**
+   - **Title:** Clearly state what the snippet is about.
+   - **Description:** Provide a brief summary of the snippet’s functionality.
+   - **Tags and Platforms:** Include relevant tags and platform compatibility to help categorize and discover the snippet.
+
+2. **Overview:**
+   - **Context Setting:** Start with an overview that provides context for the snippet, explaining what it does and why it might be useful.
+
+3. **Code Section:**
+   - **Clarity:** Present the core code snippet clearly, ensuring it’s well-commented and easy to understand. This is the heart of the snippet and should be straightforward to implement.
+
+4. **Usage:**
+   - **Practical Implementation:** Show how to implement the snippet in a real-world scenario. This helps users see the snippet in action and understand its application.
+
+5. **Discussion:**
+   - **In-Depth Analysis:** Discuss the rationale behind the solution, including any alternative approaches and the pros and cons of the chosen method. Address potential edge cases, performance considerations, and limitations.
+
+6. **Notes:**
+   - **Additional Considerations:** Use this section to mention any extra details, such as flexibility, scalability, or compatibility considerations, that are important to the snippet’s use.
+
+7. **Related Snippets:**
+   - **Cross-Reference:** Link to other related snippets that might be useful to the developer, providing a pathway to explore similar functionalities.
+
+8. **LinkCard and Additional Details:**
+   - **Direct Access:** Provide a direct link to the full snippet or documentation, making it easy for users to access additional information or extended examples.
+
+---
+
+# Channel (from channel.md)
+```markdown
+### [Channel Name]
+[Provide a concise summary of the channel, its primary focus, and why it is valuable to the audience.]
+
+<details>
+
+**URL:** [Full URL of the Channel]
+
+**Platform:** [Platform where the channel is hosted, e.g., YouTube, Vimeo, etc.]
+
+**Created:** [YYYY-MM-DD]
+
+**Authors/Creators:** `[Author or Creator Names]`
+
+**Tags:**  
+`[Relevant tags such as topics covered, content style, etc.]`
+
+</details>
+
+#### Overview
+[Provide a more detailed explanation of what the channel is about, the topics it covers, and the style of content. Discuss the general themes or topics the channel frequently explores, and mention the typical format of its content (e.g., tutorials, live coding sessions, interviews).]
+
+#### Main Content Areas
+[Categorize the main types of content or series the channel offers. Provide a brief description for each category.]
+
+- **Series/Category 1:** [Brief description of this content area or series.]
+- **Series/Category 2:** [Brief description of this content area or series.]
+- **Series/Category 3:** [Brief description of this content area or series.]
+- **Optional: Add or remove categories/series as necessary.]
+
+#### Notable Videos or Playlists
+[Provide a brief introduction or explanation for the list of videos or playlists below.]
+
+- **[Video/Playlist Title 1](/docs/path-to-video-1):** [Brief description of the video/playlist.]
+- **[Video/Playlist Title 2](/docs/path-to-video-2):** [Brief description of the video/playlist.]
+- **[Video/Playlist Title 3](/docs/path-to-video-3):** [Brief description of the video/playlist.]
+- **Optional: Add or remove notable videos or playlists as necessary.]
+
+<LinkCard title="Visit [Channel Name]" href="[Full URL of the Channel]" />
+```
+
+---
+
+### **Usage Notes for Revised channel.md:**
+
+1. **Title and Description:**
+   - **Title:** Clearly state the name of the channel.
+   - **Description:** Provide a concise summary that highlights the channel’s primary focus, key areas of interest, and why it is valuable to its audience. This should be a brief paragraph or a few sentences.
+
+2. **Details Section:**
+   - **URL:** Insert the full URL where the channel can be accessed (e.g., the main YouTube page for the channel).
+   - **Platform:** Specify the platform where the channel is hosted (e.g., YouTube, Vimeo). This helps users quickly identify the source of the content.
+   - **Created Date:** Use the ISO 8601 format (YYYY-MM-DD) to record the date when the channel was created.
+   - **Authors/Creators:** List the creators or primary authors of the channel content, using backticks (`) for consistency.
+   - **Tags:** Add relevant tags that categorize the content. These tags can include topics covered (e.g., "Swift", "iOS Development"), content style (e.g., "Tutorials", "Live Coding"), or the target audience (e.g., "Beginners", "Advanced Developers").
+
+3. **Overview:**
+   - **Purpose:** Expand on the initial description with more details about the channel's goals, the typical content format (e.g., tutorials, live streams, interviews), and the general themes or topics the channel covers.
+   - **Content Style:** Mention how the content is presented—whether it’s highly technical, beginner-friendly, hands-on coding sessions, etc.
+
+4. **Main Content Areas:**
+   - **Categorization:** Break down the channel’s content into its main categories or series. This could include recurring themes, specific programming languages, or types of content (e.g., "Swift Tutorials", "Live Coding Sessions").
+   - **Brief Descriptions:** Provide a short description of what each category or series entails, giving users a clear idea of what to expect.
+
+5. **Notable Videos or Playlists:**
+   - **Introduction:** Provide a short introductory sentence or paragraph explaining that the following list contains some of the most interesting or valuable videos and playlists from the channel.
+   - **Listing Videos/Playlists:** For each notable video or playlist, provide a title, link (using `/docs/path-to-video`), and a brief description. The link should point to a dedicated page (using the video.md template) where more detailed information is provided.
+   - **Flexibility:** Adjust the number of listed videos or playlists based on what’s most relevant or valuable. You can add or remove entries as needed.
+
+6. **LinkCard:**
+   - **Purpose:** Use the LinkCard at the end of the document to provide a direct link to the channel. This makes it easy for users to visit the channel directly from the documentation.
+   - **Customization:** Replace the placeholder text with the channel's name and ensure the URL is correct.
+
+---
+
