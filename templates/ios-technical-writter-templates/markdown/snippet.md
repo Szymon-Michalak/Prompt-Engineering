@@ -4,7 +4,6 @@ title: "[Snippet Title]"
 description: "[A brief description of the snippet's purpose, key functionality, and why it is useful.]"
 ---
 
-## Overview
 [Provide a brief overview of what the snippet does, its primary use case, and why it is valuable. This section sets the context for the snippet.]
 
 <details>
