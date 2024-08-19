@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "[Snippet Title]"
 description: "[A brief description of the snippet's purpose, key functionality, and why it is useful.]"
@@ -35,7 +34,7 @@ description: "[A brief description of the snippet's purpose, key functionality, 
 ```
 
 ## Discussion
-[Include a discussion of the solution, why it was chosen, and any alternative approaches that were considered. Discuss edge cases, performance considerations, and potential limitations.]
+[Provide a concise explanation of the key aspects of the snippet. Focus on the logic used, any important decisions made, and how it can be adapted or extended for other use cases. This section should be informative but not overly detailed.]
 
 ## Notes
 - **Flexibility:** [Briefly mention how flexible the snippet is, such as ease of customization or scalability.]
@@ -52,30 +51,25 @@ description: "[A brief description of the snippet's purpose, key functionality, 
 
 ### **Usage Notes:**
 
-1. **Title and Metadata:**
-   - **Title:** Clearly state what the snippet is about.
-   - **Description:** Provide a brief summary of the snippet’s functionality.
-   - **Tags and Platforms:** Include relevant tags and platform compatibility to help categorize and discover the snippet.
+1. **Overview:**
+   - **Purpose:** The overview should quickly introduce the snippet, explaining its purpose and typical use case. Keep this section brief but informative.
 
-2. **Overview:**
-   - **Context Setting:** Start with an overview that provides context for the snippet, explaining what it does and why it might be useful.
+2. **Code Section:**
+   - **Clarity:** The core code snippet should be clearly presented with any necessary comments to make the logic easy to understand.
 
-3. **Code Section:**
-   - **Clarity:** Present the core code snippet clearly, ensuring it’s well-commented and easy to understand. This is the heart of the snippet and should be straightforward to implement.
+3. **Usage:**
+   - **Practical Implementation:** Provide a real-world example of how the snippet can be used. This helps users see the snippet in context and understand its practical applications.
 
-4. **Usage:**
-   - **Practical Implementation:** Show how to implement the snippet in a real-world scenario. This helps users see the snippet in action and understand its application.
+4. **Discussion:**
+   - **Conciseness:** Focus on key points about the snippet's functionality, design choices, and potential adaptations. Avoid excessive detail, aiming instead for clarity and utility.
 
-5. **Discussion:**
-   - **In-Depth Analysis:** Discuss the rationale behind the solution, including any alternative approaches and the pros and cons of the chosen method. Address potential edge cases, performance considerations, and limitations.
+5. **Notes:**
+   - **Flexibility and Compatibility:** Briefly cover the snippet's adaptability and any platform or version-specific considerations.
 
-6. **Notes:**
-   - **Additional Considerations:** Use this section to mention any extra details, such as flexibility, scalability, or compatibility considerations, that are important to the snippet’s use.
+6. **Related Snippets:**
+   - **Cross-Reference:** Link to other related snippets to guide users to additional resources that might be helpful.
 
-7. **Related Snippets:**
-   - **Cross-Reference:** Link to other related snippets that might be useful to the developer, providing a pathway to explore similar functionalities.
-
-8. **LinkCard and Additional Details:**
-   - **Direct Access:** Provide a direct link to the full snippet or documentation, making it easy for users to access additional information or extended examples.
+7. **LinkCard:**
+   - **Direct Access:** The LinkCard provides a direct link to the full implementation or documentation, making it easy for users to access more detailed information.
 
 ---
