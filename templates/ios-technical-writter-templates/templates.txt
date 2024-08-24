@@ -1,47 +1,64 @@
 # Interview_question (from interview_question.md)
+```markdown
 ---
-Slug: `[slug]`
-Title: `[title]`
-Authors: `[authors]`
-Tags: `[tags]`
+slug: [slug in CammelCase]
+title: [title]
+authors: [authors]
+tags: [tags]
 ---
 
 <details>
   <summary>**Sources & Resources**</summary>
 
-  **Main Source:** `[Main Source Title]([Main Source URL])`
+  **Main Source:** [Main Source Title]([Main Source URL])
 
   **Additional Sources:**
-    - `[Additional Source Title]([Additional Source URL])`
+    - [Additional Source Title]([Additional Source URL])
   
   **Further Reading:**
-    - `[Further Reading Title]([Further Reading URL])`
+    - [Further Reading Title]([Further Reading URL])
 </details>
 
-## Summary
 :::info[TL/DR]
 [Brief summary of the main point.]
 :::
 
-## Explanation
-[Detailed explanation of the concept, including any relevant code snippets or examples.]
+[Provide a detailed explanation of the concept, topic, or question. This section is flexible and can include any combination of the following based on the question’s requirements:]
 
-```swift
-// Example Swift code that demonstrates the concept
-```
+- **Concept Overview:** [Introduce the main idea or concept related to the question.]
+  
+- **Code Examples:** [Include Swift code snippets if the question involves coding.]
 
-## Additional Details
-[Additional examples, edge cases, or related concepts that deepen understanding.]
+  ```swift
+  // Example Swift code
+  ```
 
-```swift
-// Additional example code
-```
+- **Tables:** [If applicable, use tables to compare, categorize, or clarify concepts.]
+
+  | Column 1 | Column 2 | Column 3 |
+  |----------|----------|----------|
+  | Data 1   | Data 2   | Data 3   |
+  
+- **Step-by-Step Breakdown:** [If the concept needs to be broken down, include step-by-step instructions or explanations.]
+
+- **Real-World Applications:** [Discuss how this concept is used in real-world scenarios.]
+
+- **Common Mistakes:** [Highlight typical errors to avoid or misconceptions.]
+
+- **Diagrams/Visual Aids:** [Include any relevant diagrams, flowcharts, or other visual tools to clarify complex ideas.]
+
+- **Additional Details:** [Add any extra examples, edge cases, or related concepts that enhance understanding.]
+
+  ```swift
+  // Additional example code
+  ```
 
 :::tip[In Bullets]
 - **[Key Point 1]:** [Brief explanation].
 - **[Key Point 2]:** [Brief explanation].
 - **[Key Point 3]:** [Brief explanation].
 :::
+```
 
 ---
 
@@ -49,9 +66,11 @@ Tags: `[tags]`
 - **Metadata:** Use the "slug," "title," "authors," and "tags" fields to categorize and manage content effectively.
 - **Sources & Resources:** Provide a main source and additional resources for further reading.
 - **Summary:** Include a brief "TL/DR" section for a quick takeaway.
-- **Explanation:** Offer a thorough explanation with code examples.
-- **Additional Details:** Add any edge cases or related concepts for a comprehensive understanding.
-- **Key Points:** Summarize the critical takeaways in a bullet-point format.
+- **Explanation:** The middle section is flexible, accommodating different content types such as text, code, tables, and visuals based on the needs of the question.
+- **Interactive Examples:** Consider adding links to interactive coding environments if applicable.
+
+---
+
 
 # Book (from book.md)
 ```markdown
@@ -161,7 +180,6 @@ sidebar_label: "📗📘📕 [Short Sidebar Label]"
 
 ---
 
-This version of the book template now maintains a consistent tone and structure with the blog post template, ensuring a cohesive experience across your documentation.
 
 # Solutions (from solutions.md)
 ```markdown
@@ -313,6 +331,7 @@ func advancedSolution(input: [Int]) -> [Int] {
 
 ---
 
+
 # Blog_post (from blog_post.md)
 ```markdown
 ### 🟢🔵🔴 [Title]
@@ -385,6 +404,7 @@ func advancedSolution(input: [Int]) -> [Int] {
    - **Formatting:** Use bold, italics, or other formatting options to emphasize key points or make the content more readable.
 
 ---
+
 
 # Problem (from problem.md)
 ```markdown
@@ -467,6 +487,7 @@ tags: `[Tag1]`, `[Tag2]`, `[Tag3]`
    - **Common Misconceptions:** Address any potential misconceptions about the problem to prevent users from heading down incorrect paths.
 
 ---
+
 
 # Tool (from tool.md)
 ```markdown
@@ -566,6 +587,7 @@ tags: `[Tag1]`, `[Tag2]`, `[Tag3]`
 
 ---
 
+
 # Video (from video.md)
 ```markdown
 ### [Video/Playlist Title]
@@ -606,7 +628,7 @@ tags: `[Tag1]`, `[Tag2]`, `[Tag3]`
 
 ---
 
-### **Usage Notes for video.md:**
+### **Usage Notes**
 
 1. **Title and Description:**
    - **Title:** Clearly state the title of the video or playlist.
@@ -637,6 +659,7 @@ tags: `[Tag1]`, `[Tag2]`, `[Tag3]`
    - **Customization:** Replace the placeholder text with the title of the video or playlist, and ensure the URL is correct.
 
 ---
+
 
 # Repository (from repository.md)
 ```markdown
@@ -707,6 +730,7 @@ tags: `[Tag1]`, `[Tag2]`, `[Tag3]`
    - **Customization:** Replace the placeholder text with the repository’s name and ensure the URL is correct.
 
 ---
+
 
 # Component (from component.md)
 ```markdown
@@ -821,6 +845,7 @@ import GifExample3 from './[ComponentName-Example3].gif';
 
 ---
 
+
 # Resource_overview (from resource_overview.md)
 ```markdown
 ---
@@ -887,9 +912,10 @@ tags: `[tag1]`, `[tag2]`, `[tag3]`
 6. **LinkCard**:
    - **Direct Access**: Provide a direct link to the resource at the end of the entry, making it easy for users to explore further.
 
-# Framework (from framework.md)
-### **Streamlined Framework Template (framework.md)**
+---
 
+
+# Framework (from framework.md)
 ```markdown
 ---
 title: "[Framework Name]"
@@ -965,14 +991,81 @@ tags: `[Tag1]`, `[Tag2]`, `[Tag3]`
 
 ---
 
-# Snippet (from snippet.md)
+
+# Format_interview_question (from format_interview_question.md)
 ```markdown
+---
+slug: [slug in CammelCase]
+title: [title]
+authors: [authors]
+tags: [tags]
+---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Main Source Title]([Main Source URL])
+
+  **Additional Sources:**
+    - [Additional Source Title]([Additional Source URL])
+  
+  **Further Reading:**
+    - [Further Reading Title]([Further Reading URL])
+</details>
+
+:::info[TL/DR]
+[Add a brief summary of the main point(s) covered in the content. This should be concise, highlighting the key takeaway(s).]
+:::
+
+[Insert source content here. Enhance readability by applying the following improvements as needed:]
+
+- **Bold important concepts**: Highlight crucial terms, ideas, or conclusions using bold text to draw attention.
+  
+- `Code Keywords`: Use inline code formatting to emphasize specific code elements, functions, classes, or keywords.
+
+- **Section Headings**: If your content doesn't have clear sections, consider adding or enhancing headings to improve structure and flow.
+
+:::tip[In Bullets]
+- **[Key Point 1]:** [Summarize the first key takeaway].
+- **[Key Point 2]:** [Summarize the second key takeaway].
+- **[Key Point 3]:** [Summarize any additional key takeaways].
+:::
+
+```
+---
+
+### Usage Notes:
+- **TL/DR**: 
+  - **Purpose**: The TL/DR section provides a quick, high-level summary of the content. It should be concise and cover the main takeaway or concept in 1-2 sentences.
+  - **Application**: Craft this summary by focusing on the most critical point(s) in your content. Place this section immediately after the "Sources & Resources" details.
+  
+- **Styling Enhancements**:
+  - **Bold**: Use bold text to emphasize important concepts, terms, and conclusions within your content. This makes it easier for readers to identify key points quickly. Example: **Singleton Pattern**.
+  - **Code Formatting**: Use inline code formatting (i.e., `code`) for any code-related elements like methods, functions, classes, or keywords. This helps distinguish code from regular text and enhances clarity. Example: `sharedInstance`.
+  - **Headings**: If your content lacks clear structure, introduce or refine section headings. This not only improves readability but also makes the content easier to navigate. Use Markdown headings (e.g., `## Section Title`) for this purpose.
+
+- **Organize Content**:
+  - **Purpose**: Structured content is easier to read and understand. If your existing content is disorganized, consider breaking it into sections with clear headings.
+  - **Application**: Review your content and identify logical sections or topics. Label these sections with appropriate headings to guide the reader through the material.
+
+- **In Bullets**:
+  - **Purpose**: The "In Bullets" section serves to summarize the key points from your content. It provides a quick reference or recap of the most important takeaways.
+  - **Application**: After reviewing the content, distill the main points into 2-3 bullet points. These should capture the essence of the content, making it easy for readers to recall the most critical information.
+  - **Placement**: Include this section at the end of your content, just before the "Usage Notes" section.
+
+- **Content Preservation**:
+  - **Objective**: This template is designed to enhance existing content without altering its core message or structure. Focus on improving readability and accessibility rather than modifying the content itself.
+  - **Non-Intrusive Enhancements**: The suggested enhancements, such as bolding and code formatting, should be applied in a way that complements the original content. Avoid overuse of formatting to maintain a clean, professional appearance.
+
+---
+
+
+# Snippet (from snippet.md)
 ---
 title: "[Snippet Title]"
 description: "[A brief description of the snippet's purpose, key functionality, and why it is useful.]"
 ---
 
-## Overview
 [Provide a brief overview of what the snippet does, its primary use case, and why it is valuable. This section sets the context for the snippet.]
 
 <details>
@@ -1004,7 +1097,7 @@ description: "[A brief description of the snippet's purpose, key functionality, 
 ```
 
 ## Discussion
-[Include a discussion of the solution, why it was chosen, and any alternative approaches that were considered. Discuss edge cases, performance considerations, and potential limitations.]
+[Provide a concise explanation of the key aspects of the snippet. Focus on the logic used, any important decisions made, and how it can be adapted or extended for other use cases. This section should be informative but not overly detailed.]
 
 ## Notes
 - **Flexibility:** [Briefly mention how flexible the snippet is, such as ease of customization or scalability.]
@@ -1021,33 +1114,29 @@ description: "[A brief description of the snippet's purpose, key functionality, 
 
 ### **Usage Notes:**
 
-1. **Title and Metadata:**
-   - **Title:** Clearly state what the snippet is about.
-   - **Description:** Provide a brief summary of the snippet’s functionality.
-   - **Tags and Platforms:** Include relevant tags and platform compatibility to help categorize and discover the snippet.
+1. **Overview:**
+   - **Purpose:** The overview should quickly introduce the snippet, explaining its purpose and typical use case. Keep this section brief but informative.
 
-2. **Overview:**
-   - **Context Setting:** Start with an overview that provides context for the snippet, explaining what it does and why it might be useful.
+2. **Code Section:**
+   - **Clarity:** The core code snippet should be clearly presented with any necessary comments to make the logic easy to understand.
 
-3. **Code Section:**
-   - **Clarity:** Present the core code snippet clearly, ensuring it’s well-commented and easy to understand. This is the heart of the snippet and should be straightforward to implement.
+3. **Usage:**
+   - **Practical Implementation:** Provide a real-world example of how the snippet can be used. This helps users see the snippet in context and understand its practical applications.
 
-4. **Usage:**
-   - **Practical Implementation:** Show how to implement the snippet in a real-world scenario. This helps users see the snippet in action and understand its application.
+4. **Discussion:**
+   - **Conciseness:** Focus on key points about the snippet's functionality, design choices, and potential adaptations. Avoid excessive detail, aiming instead for clarity and utility.
 
-5. **Discussion:**
-   - **In-Depth Analysis:** Discuss the rationale behind the solution, including any alternative approaches and the pros and cons of the chosen method. Address potential edge cases, performance considerations, and limitations.
+5. **Notes:**
+   - **Flexibility and Compatibility:** Briefly cover the snippet's adaptability and any platform or version-specific considerations.
 
-6. **Notes:**
-   - **Additional Considerations:** Use this section to mention any extra details, such as flexibility, scalability, or compatibility considerations, that are important to the snippet’s use.
+6. **Related Snippets:**
+   - **Cross-Reference:** Link to other related snippets to guide users to additional resources that might be helpful.
 
-7. **Related Snippets:**
-   - **Cross-Reference:** Link to other related snippets that might be useful to the developer, providing a pathway to explore similar functionalities.
-
-8. **LinkCard and Additional Details:**
-   - **Direct Access:** Provide a direct link to the full snippet or documentation, making it easy for users to access additional information or extended examples.
+7. **LinkCard:**
+   - **Direct Access:** The LinkCard provides a direct link to the full implementation or documentation, making it easy for users to access more detailed information.
 
 ---
+
 
 # Channel (from channel.md)
 ```markdown
@@ -1124,4 +1213,5 @@ description: "[A brief description of the snippet's purpose, key functionality, 
    - **Customization:** Replace the placeholder text with the channel's name and ensure the URL is correct.
 
 ---
+
 

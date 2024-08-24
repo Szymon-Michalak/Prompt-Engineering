@@ -1,5 +1,3 @@
-### **Streamlined Framework Template (framework.md)**
-
 ```markdown
 ---
 title: "[Framework Name]"

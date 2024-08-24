@@ -104,5 +104,3 @@ sidebar_label: "📗📘📕 [Short Sidebar Label]"
    - **Formatting:** Use formatting to emphasize important sections or to make the content more readable. For example, you can bold key phrases or use different text sizes.
 
 ---
-
-This version of the book template now maintains a consistent tone and structure with the blog post template, ensuring a cohesive experience across your documentation.

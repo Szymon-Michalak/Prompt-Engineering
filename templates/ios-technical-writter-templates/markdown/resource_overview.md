@@ -62,3 +62,5 @@ tags: `[tag1]`, `[tag2]`, `[tag3]`
 
 6. **LinkCard**:
    - **Direct Access**: Provide a direct link to the resource at the end of the entry, making it easy for users to explore further.
+
+---

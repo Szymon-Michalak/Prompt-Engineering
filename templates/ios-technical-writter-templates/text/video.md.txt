@@ -37,7 +37,7 @@
 
 ---
 
-### **Usage Notes for video.md:**
+### **Usage Notes**
 
 1. **Title and Description:**
    - **Title:** Clearly state the title of the video or playlist.

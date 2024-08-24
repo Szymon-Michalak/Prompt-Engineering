@@ -1,4 +1,5 @@
 import os
+from tqdm import tqdm
 
 # Directories
 markdown_dir = 'markdown'
@@ -13,7 +14,7 @@ with open(output_file, 'w') as f:
     pass
 
 # Process each .md file
-for md_file in os.listdir(markdown_dir):
+for md_file in tqdm(os.listdir(markdown_dir)):
     if md_file.endswith('.md'):
         filename = os.path.splitext(md_file)[0]
         txt_filename = f"{filename}.md.txt"
